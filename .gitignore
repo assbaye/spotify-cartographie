@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Données brutes : chacun les télécharge sur Kaggle
+data/raw/*
+!data/raw/.gitkeep
