@@ -25,8 +25,8 @@ FEATURES = [
 
 META = ["track_id", "artists", "album_name", "track_name", "popularity", "duration_ms", "track_genre"]
 
-# PROPOSITION de départ (8 genres contrastés) : à confirmer après lecture des
-# valeurs réelles de la colonne `track_genre` (voir notebook 01).
+# 8 genres contrastés, tous présents dans le CSV (114 genres de 1 000 titres chacun).
+# Le choix reste à justifier dans le rapport (voir notebook 01).
 GENRES = [
     "classical",
     "heavy-metal",

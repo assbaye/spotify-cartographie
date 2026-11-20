@@ -46,6 +46,8 @@ Le nombre de clusters `--k` doit être justifié par le coude et la silhouette (
 
 ## À faire
 
-- [ ] Confirmer les 8 genres dans `config.GENRES` après lecture de `track_genre`.
-- [ ] Un notebook par bloc (le code des fonctions est déjà dans `src/`).
+- [x] Genres retenus vérifiés : les 8 de `config.GENRES` existent dans le CSV.
+- [x] `notebooks/01_pretraitement.ipynb` (à compléter avec les commentaires de chacun).
+- [ ] Un notebook par bloc suivant (le code des fonctions est déjà dans `src/`).
+- [ ] `data/processed/tracks_clean.csv` est provisoire (k = 6) : à régénérer avec le k justifié.
 - [ ] Rapport et réponses explicites aux 4 questions du sujet.
